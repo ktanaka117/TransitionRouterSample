@@ -17,7 +17,7 @@ MVPにおけるView(Controller)とPresenterに(Transition)Routerという概念�
   - 渡すViewController、遷移方法に関する情報は渡された側のViewControllerは知らない
   - 渡された側のViewControllerが遷移先のViewController、遷移方法について設定することはない
 
-### 解決したい課題
+### 解決したいこと
 
 ここでアンチパターンとして捉えているのは以下のような実装のこと。
 
