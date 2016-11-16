@@ -8,6 +8,8 @@ MVPにおけるView(Controller)とPresenterに(Transition)Routerという概念�
 - 画面ごとの遷移先の一元管理
 - インターフェース（protocol）を実装することによって依存をなくす
 
+[概略図] （あとで書く）
+
 ## ちょっとした解説
 
 ### 実装の解説
