@@ -9,6 +9,7 @@ MVPにおけるView(Controller)とPresenterに(Transition)Routerという概念�
 - Protocolを実装することによって依存をなくす
 
 こちらにもまとめを書きましたので、合わせて読んでみてください。
+
 [\[iOS\] ViewControllerが遷移先のViewControllerについて知っているのが気持ち悪い！ ｜ Developers\.IO](http://dev.classmethod.jp/smartphone/iphone/ios-viewcontroller-knows-viewcontroller-feel-strange/)
 
 ![](TransitionRouter.png)
