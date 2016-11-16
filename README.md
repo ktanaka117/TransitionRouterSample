@@ -8,6 +8,8 @@ MVPにおけるView(Controller)とPresenterに(Transition)Routerという概念�
 - 画面ごとの遷移先の一元管理
 - インターフェース（protocol）を実装することによって依存をなくす
 
+## ちょっとした解説
+
 ここでアンチパターンとして捉えているのは以下のような実装のこと。
 
 ```swift
@@ -31,7 +33,6 @@ class AViewController: UIViewController {
 
 ```
 
-## ちょっとした解説
 - 遷移のハンドルは表示系ロジックを管理するPresenterが行っている
 - ViewControllerはTransitionRouterDelegate（インターフェース）から渡されたViewControllerへの遷移を実行するのみ
   - 渡すViewController、遷移方法に関する情報は渡された側のViewControllerは知らない
