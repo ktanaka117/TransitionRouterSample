@@ -6,7 +6,7 @@ MVPにおけるView(Controller)とPresenterに(Transition)Routerという概念�
 
 - ViewControllerが別のViewControllerを知らなくてよいようにする（関心の分離）
 - 画面ごとの遷移先の一元管理
-- インターフェース（protocol）を実装することによって依存をなくす
+- Protocolを実装することによって依存をなくす
 
 ![](TransitionRouter.png)
 
@@ -15,7 +15,7 @@ MVPにおけるView(Controller)とPresenterに(Transition)Routerという概念�
 ### 実装の解説
 
 - 遷移のハンドルは表示系ロジックを管理するPresenterが行っている
-- ViewControllerはTransitionRouterDelegate（インターフェース）から渡されたViewControllerへの遷移を実行するのみ
+- ViewControllerはTransitionRouterDelegate（Protocol）から渡されたViewControllerへの遷移を実行するのみ
   - 渡すViewController、遷移方法に関する情報は渡された側のViewControllerは知らない
   - 渡された側のViewControllerが遷移先のViewController、遷移方法について設定することはない
 
